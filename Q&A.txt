@@ -1,0 +1,25 @@
+Images and Containers
+===========================
+A Docker image is a combination of bin/libs that are necessary
+for a s/w application to work.Initially all the s/w's of docker 
+are available in the form of docker images
+
+A running instance of an image is called as a container
+
+
+Docker Host: The server where docker is installed is called
+               docker host
+
+
+==========================================================================
+Docker Client:This is the CLI of docker where the user can execute the
+docker commands,The docker client accepts these commands and passes them
+to a background process called "docker deamon"
+
+Docker deamon: This process accepts the commands coming from the docker client
+and routes them to work on docker images or containers or the docker registry
+
+Docker registry: This is the cloud site of docker where docker images are
+stored.This is of two types
+1 Public Registry( hub.docker.com)
+2 Private Registry(Setup on one of our local servers)
